@@ -68,7 +68,7 @@ class App extends Component {
   };
 
   render() {
-    const { searchQuery, images, loading, selectedImage } = this.state;
+    const { images, loading, selectedImage } = this.state;
 
     return (
       <div>
