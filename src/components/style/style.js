@@ -16,28 +16,9 @@ export const LoaderContainer = styled.div`
 `;
 
 export const ModalContainer = styled.div`
-  max-width: 800px;
-  max-height: 90%;
-  overflow: hidden;
-`;
-export const ModalOverlay = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-`;
-
-export const ModalContent = styled.div`
-  position: relative;
   max-width: 90%;
   max-height: 90%;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  z-index: 2;
+  overflow: hidden;
 `;
 
 export const Overlay = styled.div`
@@ -55,8 +36,7 @@ export const Overlay = styled.div`
 
 export const ModalImage = styled.img`
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 `;
 
 export const SearchContainer = styled.div`
